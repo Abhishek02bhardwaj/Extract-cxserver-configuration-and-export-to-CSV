@@ -1,0 +1,2 @@
+# Extract-cxserver-configuration-and-export-to-CSV
+This repository is my submission for the task #T331201 in which we were supposed to write a parser for a set of YAML files under  "config/" in the cxserver repository which determines which languages are supported by the service and create a single flat, in-memory structure with all of the supported pairs and export this data as a CSV of all pairs.
