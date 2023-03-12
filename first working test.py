@@ -15,9 +15,17 @@ for filename in os.listdir("config"):
             if "handler" in config:
                 handler = config["handler"]
                 if handler == "transform.js":
+                    lst = list(config["languages"])
+                    target_langs = []
+                    source_lang = []
                     # Handle transform.js based configuration files
-                    source_lang = [filename.split(".")[0]]
-                    target_langs = [config["languages"]]
+                    for j in lst:
+                        source_lang.append(j)
+                        target_lang = []
+                        for k in lst:
+                            if(j != k and not ((j == "simple" and k == "en") or (k == "simple" and j == "en"))):
+                                target_lang.append(k)
+                        target_langs.append(target_lang)
                     engine = filename[:-5]
                     preferred_engine = config.get("preferred_engine", False)
             else:
