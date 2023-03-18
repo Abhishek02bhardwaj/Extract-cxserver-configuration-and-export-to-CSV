@@ -18,4 +18,4 @@ In the most recent commit I have integrated the functioning of "mt-default.wikim
 3. Execute the "mt-defaults.py".<br>
 4. Execute the "final_updated.py".<br>
 <h2>Final Output File</h2>
-<a href = "">supported_pairs.csv</a>
+<a href = "https://github.com/Abhishek02bhardwaj/Extract-cxserver-configuration-and-export-to-CSV/blob/main/supported_pairs.csv">supported_pairs.csv</a>
