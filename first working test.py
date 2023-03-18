@@ -15,7 +15,7 @@ for filename in os.listdir("config"):
             if "handler" in config:
                 handler = config["handler"]
                 if handler == "transform.js":
-                    lst = list(config["languages"])
+                    lst = config["languages"]
                     target_langs = []
                     source_lang = []
                     # Handle transform.js based configuration files
