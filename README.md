@@ -16,4 +16,6 @@ In the most recent commit I have integrated the functioning of "mt-default.wikim
 1. First clone the repository.<br>
 2. Execute the "first working test.py".<br>
 3. Execute the "mt-defaults.py".<br>
-4. Execute the "fina_updated.py".<br>
+4. Execute the "final_updated.py".<br>
+<h2>Final Output File</h2>
+<a href = "">supported_pairs.csv</a>
