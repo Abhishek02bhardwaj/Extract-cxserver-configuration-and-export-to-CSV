@@ -1,0 +1,21 @@
+source language,target language,translation engine,is preferred engine?
+af,nl,Apertium,True
+an,ca,Apertium,False
+an,es,Apertium,False
+ar,mt,Apertium,True
+en,as,Flores,False
+en,ast,Flores,False
+en,ay,Flores,False
+es,as,Flores,False
+es,ast,Flores,False
+es,ay,Flores,False
+en,eo,Google,False
+en,es,Google,False
+eo,en,Google,False
+eo,es,Google,False
+eo,simple,Google,False
+es,en,Google,False
+es,eo,Google,False
+es,simple,Google,False
+simple,eo,Google,False
+simple,es,Google,False

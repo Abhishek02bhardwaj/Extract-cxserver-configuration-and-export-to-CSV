@@ -1,0 +1,6 @@
+handler: transform.js
+languages:
+  - en
+  - eo
+  - es
+  - simple
