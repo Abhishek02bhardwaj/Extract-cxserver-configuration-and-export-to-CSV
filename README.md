@@ -18,8 +18,11 @@ This repository serves as a comprehensive tool for extracting language pairs sup
 * LICENSE.md: MIT License file.
 * README.md: Project documentation.
 
-* 
-<h2>Libraries Utilised</h2>
+## Libraries Utilised
+1. PyYAML: Used for parsing YAML files.
+2. CSV: Python's built-in library for handling CSV operations.
+
+
 1. PyYAML<br>
 <h2>Integrated the functioning of mt-defaults.wikimedia.yaml</h2>
 In the most recent commit I have integrated the functioning of "mt-default.wikimedia.yaml". This file contains the information about the preferred engines for a specific Source Langauge and Target Language pair. To use this file I first converted it into a CSV file named "mt-defaults.csv" with columns named "source language", "target language" and "preferred engine". Then using the "final_updated.py" I compared "mt-defaults.csv" and "supported_pairs.csv" and for the rows in which the value of source language, target language and the preferred engine (in mt-defaults.csv) & translation engine (in supported_pairs.csv) were same, I updated the value of "is preferred engine" to true which was otherwise set to False by default.
