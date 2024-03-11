@@ -1,11 +1,13 @@
-# Extract-cxserver-configuration-and-export-to-CSV
-This repository is my submission for the task #T331201 in which we were supposed to write a parser for a set of YAML files under  "config/" in the cxserver repository which determines which languages are supported by the service and create a single flat, in-memory structure with all of the supported pairs and export this data as a CSV of all pairs.
- <br>
- The python code I have written parses the YAML files in the cxserver repository and extracts the required information into a list of dictionaries, which can be easily exported as a CSV file.
- <br>
- **Please consider the mt-defaults.wikimedia.yaml file and what its effect might be on the supported translation pairs.**
- <br>
- Regarding the mt-defaults.wikimedia.yaml file, it sets the default translation engines to be used for each language pair if no other engine is specified in the configuration files. This file does not define the language pairs themselves, so it does not affect the supported translation pairs.
+# Extract cxserver configuration and export to CSV
+
+## Overview
+This repository serves as a comprehensive tool for extracting language pairs supported by the cxserver service and exporting them to a CSV file. The extraction process involves parsing YAML files within the "config/" directory of the cxserver repository. The primary aim is to create an in-memory structure with information on supported language pairs and export this data into a CSV file.
+
+## Installation:
+1. Clone the repository to your local machine.
+2. Execute main.py to extract information from the YAML files and generate the CSV files.
+3. To run tests, execute test.py after deleting "mt-defaults.csv" and "supported_pairs.csv" to ensure accurate testing.
+
 <h2>Libraries Utilised</h2>
 1. PyYAML<br>
 <h2>Integrated the functioning of mt-defaults.wikimedia.yaml</h2>
