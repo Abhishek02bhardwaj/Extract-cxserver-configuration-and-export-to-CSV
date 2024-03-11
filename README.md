@@ -8,6 +8,20 @@ This repository serves as a comprehensive tool for extracting language pairs sup
 2. Execute main.py to extract information from the YAML files and generate the CSV files.
 3. To run tests, execute test.py after deleting "mt-defaults.csv" and "supported_pairs.csv" to ensure accurate testing.
 
+## Usage Instruction:
+1. Clone the repository to your local machine.
+2. Run 'main.py' to extract information from the YAML files and generate the CSV files.
+3. Execute 'test.py' in the test directory for testing purposes. This ensures the creation of the expected output files: "expected_supported_pairs.csv" and "expected_mt-defaults.csv."
+
+## Project Structure:
+* config/: Contains YAML files with configuration information.
+* test/: Directory for testing purposes.
+* main.py: Main Python script for parsing YAML files, extracting information, and exporting to CSV.
+* test.py: Python script for testing the functionality of main.py.
+* supported_pairs.csv: Output CSV file containing information on supported language pairs.
+* mt-defaults.csv: Output CSV file containing information from the "mt-defaults.wikimedia.yaml" file.
+LICENSE.md: MIT License file.
+README.md: Project documentation.
 <h2>Libraries Utilised</h2>
 1. PyYAML<br>
 <h2>Integrated the functioning of mt-defaults.wikimedia.yaml</h2>
